@@ -21,6 +21,7 @@
     },
     "posts": [
       {
+        "createdAt": "2020-04-20",
         "id": "605a3cb6005c17030f014a85",
         "slug": "react-hooks-use-state",
         "title": "React Hooks useState",
@@ -35,20 +36,20 @@
         "categories": [
           {
             "id": "605a3b6f005c17030f014a82",
-            "name": "React",
+            "displayName": "React",
             "slug": "react"
           }
         ],
         "tags": [
           {
             "id": "605a3b91005c17030f014a83",
-            "name": "useState",
+            "displayName": "useState",
             "slug": "use-state"
           }
         ],
         "author": {
           "id": "605a3b4e005c17030f014a81",
-          "name": "Victor",
+          "displayName": "Victor",
           "slug": "victor"
         }
       }
