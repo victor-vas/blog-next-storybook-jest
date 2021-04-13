@@ -3,74 +3,21 @@
 exports[
   `<Post /> should render header, excerpt, cover, metadata and post 1`
 ] = `
-.c5 {
+.c6 {
   font-size: 1.6rem;
   color: #AAAAAA;
   font-style: italic;
 }
 
-.c5 .categories span::after {
+.c6 .categories span::after {
   content: ', ';
 }
 
-.c5 .categories span:last-child::after {
+.c6 .categories span:last-child::after {
   content: '';
 }
 
-.c5 a {
-  color: #dc143c;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-
-.c5 a:hover {
-  -webkit-filter: brightness(50%);
-  filter: brightness(50%);
-}
-
-.c2 {
-  color: #000000;
-  line-height: 1.2;
-  font-size: 6.4rem;
-  text-transform: none;
-}
-
-.c0 {
-  padding-bottom: 4.0rem;
-  margin-bottom: 4.0rem;
-  border-bottom: 0.1rem solid #DDDDDD;
-}
-
-.c0 .c1 {
-  margin: 0;
-  margin-bottom: 2.4rem;
-}
-
-.c3 {
-  margin: 2.4rem 0;
-  font-size: 2.4rem;
-}
-
-.c4 {
-  max-width: 100%;
-  display: block;
-  margin-bottom: 2.4rem;
-}
-
-.c6 {
-  font-size: calc(1.6rem + 0.2rem);
-  line-height: 1.5;
-}
-
-.c6 p {
-  margin: 2.4rem 0;
-}
-
-.c6 a,
-.c6 a:visited,
-.c6 a:link {
+.c6 a {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -83,7 +30,60 @@ exports[
   filter: brightness(50%);
 }
 
-.c6 code {
+.c3 {
+  color: #000000;
+  line-height: 1.2;
+  font-size: 6.4rem;
+  text-transform: none;
+}
+
+.c1 {
+  padding-bottom: 4.0rem;
+  margin-bottom: 4.0rem;
+  border-bottom: 0.1rem solid #DDDDDD;
+}
+
+.c1 .c2 {
+  margin: 0;
+  margin-bottom: 2.4rem;
+}
+
+.c4 {
+  margin: 2.4rem 0;
+  font-size: 2.4rem;
+}
+
+.c5 {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 2.4rem;
+}
+
+.c8 {
+  font-size: calc(1.6rem + 0.2rem);
+  line-height: 1.5;
+}
+
+.c8 p {
+  margin: 2.4rem 0;
+}
+
+.c8 a,
+.c8 a:visited,
+.c8 a:link {
+  color: #dc143c;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c8 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c8 code {
   font-family: monospace;
   color: #dc143c;
   font-size: 1.6rem;
@@ -92,7 +92,7 @@ exports[
   margin: 0.2rem;
 }
 
-.c6 pre {
+.c8 pre {
   background: #000000;
   padding: 2.4rem;
   font-family: monospace;
@@ -103,63 +103,63 @@ exports[
   font-size: 1.6rem;
 }
 
-.c6 pre code {
+.c8 pre code {
   color: inherit;
   background: inherit;
 }
 
-.c6 img {
+.c8 img {
   max-width: 100%;
 }
 
-.c6 .image {
+.c8 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c6 .image figcaption {
+.c8 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
   text-align: center;
   line-height: 1.3;
 }
 
-.c6 .image-style-side {
+.c8 .image-style-side {
   max-width: 50%;
   float: right;
   margin: 2.4rem 0;
 }
 
-.c6 hr {
+.c8 hr {
   border: none;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c6 ul,
-.c6 ol {
+.c8 ul,
+.c8 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c6 .table {
+.c8 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c6 table {
+.c8 table {
   width: 100%;
   border-collapse: collapse;
   margin: 2.4rem 0;
 }
 
-.c6 table td,
-.c6 table th {
+.c8 table td,
+.c8 table th {
   padding: 1.6rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c6 blockquote {
+.c8 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -169,21 +169,47 @@ exports[
   margin: 2.4rem;
 }
 
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 96rem;
+}
+
+.c7 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 80rem;
+}
+
 @media (max-width:768px) {
-  .c2 {
+  .c3 {
     font-size: 4.0rem;
   }
 }
 
 @media (max-width:768px) {
-  .c6 {
+  .c8 {
     font-size: 2rem;
   }
 
-  .c6 .image-style-side {
+  .c8 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    padding: 0 calc(3.2rem / 2);
+  }
+}
+
+@media (max-width:768px) {
+  .c7 {
+    padding: 0 calc(3.2rem / 2);
   }
 }
 
@@ -191,90 +217,97 @@ exports[
   <article
     class=""
   >
-    <header
+    <div
       class="c0"
     >
-      <h1
-        class="c1 c2"
+      <header
+        class="c1"
       >
-        React Hooks useState
-      </h1>
-      <p
-        class="c3"
-      >
-        Hooks são uma nova adição ao React 16.8. Eles permitem que você use o state e outros recursos do React sem escrever uma classe.
-      </p>
-      <img
-        alt="React Hooks useState"
-        class="c4"
-        src="https://res.cloudinary.com/dg4rnkej8/image/upload/v1616526348/1_v_HH_Bwc_UF_Ua_HW_Xnt_Snq_Kd_CA_c923d6cb48.png"
-      />
+        <h1
+          class="c2 c3"
+        >
+          React Hooks useState
+        </h1>
+        <p
+          class="c4"
+        >
+          Hooks são uma nova adição ao React 16.8. Eles permitem que você use o state e outros recursos do React sem escrever uma classe.
+        </p>
+        <img
+          alt="React Hooks useState"
+          class="c5"
+          src="https://res.cloudinary.com/dg4rnkej8/image/upload/v1616526348/1_v_HH_Bwc_UF_Ua_HW_Xnt_Snq_Kd_CA_c923d6cb48.png"
+        />
+        <div
+          class="c6"
+        >
+          <p>
+            <span>
+              Por 
+            </span>
+            <a
+              href="/author/victor"
+            >
+              Victor
+            </a>
+            <span
+              class="separator"
+            >
+               | 
+            </span>
+            <time
+              datetime="2020-04-20"
+            >
+              19 de abr. de 2020
+            </time>
+            <span
+              class="separator"
+            >
+               | 
+            </span>
+            <span
+              class="categories"
+            >
+              <span>
+                <a
+                  href="/category/react"
+                >
+                  React
+                </a>
+              </span>
+            </span>
+          </p>
+        </div>
+      </header>
+    </div>
+    <div
+      class="c7"
+    >
       <div
-        class="c5"
+        class="c8"
       >
         <p>
-          <span>
-            Por 
+          <span
+            style="color:rgb(0,0,0);"
+          >
+            A 
           </span>
           <a
-            href="/author/victor"
+            href="https://pt-br.reactjs.org/docs/hooks-intro.html"
           >
-            Victor
+            página de introdução
           </a>
           <span
-            class="separator"
+            style="color:rgb(0,0,0);"
           >
-             | 
-          </span>
-          <time
-            datetime="2020-04-20"
-          >
-            19 de abr. de 2020
-          </time>
-          <span
-            class="separator"
-          >
-             | 
-          </span>
-          <span
-            class="categories"
-          >
-            <span>
-              <a
-                href="/category/react"
-              >
-                React
-              </a>
-            </span>
+             usou este exemplo para familiarizar com Hooks:
           </span>
         </p>
-      </div>
-    </header>
-    <div
-      class="c6"
-    >
-      <p>
-        <span
-          style="color:rgb(0,0,0);"
-        >
-          A 
-        </span>
-        <a
-          href="https://pt-br.reactjs.org/docs/hooks-intro.html"
-        >
-          página de introdução
-        </a>
-        <span
-          style="color:rgb(0,0,0);"
-        >
-           usou este exemplo para familiarizar com Hooks:
-        </span>
-      </p>
-      <pre>
-        <code
-          class="language-plaintext"
-        >
-          import React, { useState } from 'react';
+        <pre>
+          <code
+            class="language-plaintext"
+          >
+            import React, { useState } from 'react';
 
 function Example() {
   // Declarar uma nova variável de state, na qual chamaremos de "count"  const [count, setCount] = useState(0);
@@ -287,28 +320,28 @@ function Example() {
     &lt;/div&gt;
   );
 }
-        </code>
-      </pre>
-      <p
-        style="margin-left:0px;"
-      >
-        Vamos começar a aprender sobre Hooks comparando este código com um exemplo equivalente utilizando classe.
-      </p>
-      <h2
-        style="margin-left:0px;"
-      >
-        Exemplo Equivalente com Classe
-      </h2>
-      <p
-        style="margin-left:0px;"
-      >
-        Se você já usou classes no React, este código deve parecer familiar:
-      </p>
-      <pre>
-        <code
-          class="language-plaintext"
+          </code>
+        </pre>
+        <p
+          style="margin-left:0px;"
         >
-          class Example extends React.Component {
+          Vamos começar a aprender sobre Hooks comparando este código com um exemplo equivalente utilizando classe.
+        </p>
+        <h2
+          style="margin-left:0px;"
+        >
+          Exemplo Equivalente com Classe
+        </h2>
+        <p
+          style="margin-left:0px;"
+        >
+          Se você já usou classes no React, este código deve parecer familiar:
+        </p>
+        <pre>
+          <code
+            class="language-plaintext"
+          >
+            class Example extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -327,39 +360,40 @@ function Example() {
     );
   }
 }
-        </code>
-      </pre>
-      <p
-        style="margin-left:0px;"
-      >
-        O state começa como 
-        <code>
-          { count: 0 }
-        </code>
-        , e aumentamos o 
-        <code>
-          state.count
-        </code>
-         chamando 
-        <code>
-          this.setState()
-        </code>
-         quando o usuário clica no botão. Vamos utilizar trechos dessa classe ao longo da página.
-      </p>
-      <blockquote>
+          </code>
+        </pre>
         <p
           style="margin-left:0px;"
         >
-          <strong>
-            Nota
-          </strong>
+          O state começa como 
+          <code>
+            { count: 0 }
+          </code>
+          , e aumentamos o 
+          <code>
+            state.count
+          </code>
+           chamando 
+          <code>
+            this.setState()
+          </code>
+           quando o usuário clica no botão. Vamos utilizar trechos dessa classe ao longo da página.
         </p>
-        <p
-          style="margin-left:0px;"
-        >
-          Você pode estar se perguntando porque estamos usando um counter aqui ao invés de um exemplo mais realista. Isto é pra nos ajudar a focar na API enquanto ainda damos os primeiros passos com Hooks.
-        </p>
-      </blockquote>
+        <blockquote>
+          <p
+            style="margin-left:0px;"
+          >
+            <strong>
+              Nota
+            </strong>
+          </p>
+          <p
+            style="margin-left:0px;"
+          >
+            Você pode estar se perguntando porque estamos usando um counter aqui ao invés de um exemplo mais realista. Isto é pra nos ajudar a focar na API enquanto ainda damos os primeiros passos com Hooks.
+          </p>
+        </blockquote>
+      </div>
     </div>
   </article>
 </div>
