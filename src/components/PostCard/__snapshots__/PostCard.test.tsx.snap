@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostCard /> should match snapshot 1`] = `
+.c3 {
+  color: #000000;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c0 .c2 {
+  margin: 0;
+  margin-top: calc(1.6rem - 0.6rem);
+  margin-bottom: 1.6rem;
+}
+
+.c0 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0:hover a {
+  color: #dc143c;
+}
+
+.c0:hover img {
+  opacity: 0.8;
+}
+
+.c1 {
+  max-width: 100%;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <a
+      href="/post/react-hooks-use-state"
+    >
+      <img
+        alt="React Hooks useState"
+        class="c1"
+        src="https://res.cloudinary.com/dg4rnkej8/image/upload/v1616526348/1_v_HH_Bwc_UF_Ua_HW_Xnt_Snq_Kd_CA_c923d6cb48.png"
+      />
+    </a>
+    <h2
+      class="c2 c3"
+    >
+      <a
+        href="/post/react-hooks-use-state"
+      >
+        React Hooks useState
+      </a>
+    </h2>
+    <p
+      class=""
+    >
+      Hooks são uma nova adição ao React 16.8. Eles permitem que você use o state e outros recursos do React sem escrever uma classe.
+    </p>
+  </div>
+</div>
+`;
