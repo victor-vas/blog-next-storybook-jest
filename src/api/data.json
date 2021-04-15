@@ -52,6 +52,72 @@
           "displayName": "Victor",
           "slug": "victor"
         }
+      },
+      {
+        "createdAt": "2020-04-20",
+        "id": "605a3cb6005c17030fasdavv85",
+        "slug": "react-hooks-use-state",
+        "title": "React Hooks useState",
+        "excerpt": "Hooks são uma nova adição ao React 16.8. Eles permitem que você use o state e outros recursos do React sem escrever uma classe.",
+        "content": "<p><span style=\"color:rgb(0,0,0);\">A </span><a href=\"https://pt-br.reactjs.org/docs/hooks-intro.html\">página de introdução</a><span style=\"color:rgb(0,0,0);\"> usou este exemplo para familiarizar com Hooks:</span></p><pre><code class=\"language-plaintext\">import React, { useState } from 'react';\n\nfunction Example() {\n  // Declarar uma nova variável de state, na qual chamaremos de \"count\"  const [count, setCount] = useState(0);\n  return (\n    &lt;div&gt;\n      &lt;p&gt;You clicked {count} times&lt;/p&gt;\n      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;\n        Click me\n      &lt;/button&gt;\n    &lt;/div&gt;\n  );\n}</code></pre><p style=\"margin-left:0px;\">Vamos começar a aprender sobre Hooks comparando este código com um exemplo equivalente utilizando classe.</p><h2 style=\"margin-left:0px;\">Exemplo Equivalente com Classe</h2><p style=\"margin-left:0px;\">Se você já usou classes no React, este código deve parecer familiar:</p><pre><code class=\"language-plaintext\">class Example extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {\n      count: 0\n    };\n  }\n\n  render() {\n    return (\n      &lt;div&gt;\n        &lt;p&gt;You clicked {this.state.count} times&lt;/p&gt;\n        &lt;button onClick={() =&gt; this.setState({ count: this.state.count + 1 })}&gt;\n          Click me\n        &lt;/button&gt;\n      &lt;/div&gt;\n    );\n  }\n}</code></pre><p style=\"margin-left:0px;\">O state começa como <code>{ count: 0 }</code>, e aumentamos o <code>state.count</code> chamando <code>this.setState()</code> quando o usuário clica no botão. Vamos utilizar trechos dessa classe ao longo da página.</p><blockquote><p style=\"margin-left:0px;\"><strong>Nota</strong></p><p style=\"margin-left:0px;\">Você pode estar se perguntando porque estamos usando um counter aqui ao invés de um exemplo mais realista. Isto é pra nos ajudar a focar na API enquanto ainda damos os primeiros passos com Hooks.</p></blockquote>",
+        "allowComments": true,
+        "cover": {
+          "id": "605a3c09005c17030f014a84",
+          "alternativeText": "",
+          "url": "https://res.cloudinary.com/dg4rnkej8/image/upload/v1616526348/1_v_HH_Bwc_UF_Ua_HW_Xnt_Snq_Kd_CA_c923d6cb48.png"
+        },
+        "categories": [
+          {
+            "id": "605a3b6f005c17030f014a82",
+            "displayName": "React",
+            "slug": "react"
+          }
+        ],
+        "tags": [
+          {
+            "id": "605a3b91005c17030f014a83",
+            "displayName": "useState",
+            "slug": "use-state"
+          }
+        ],
+        "author": {
+          "id": "605a3b4e005c17030f014a81",
+          "displayName": "Victor",
+          "slug": "victor"
+        }
+      },
+      {
+        "createdAt": "2020-04-20",
+        "id": "605a3cb6005c170dasd30fasdavv85",
+        "slug": "react-hooks-use-state",
+        "title": "React Hooks useState",
+        "excerpt": "Hooks são uma nova adição ao React 16.8. Eles permitem que você use o state e outros recursos do React sem escrever uma classe.",
+        "content": "<p><span style=\"color:rgb(0,0,0);\">A </span><a href=\"https://pt-br.reactjs.org/docs/hooks-intro.html\">página de introdução</a><span style=\"color:rgb(0,0,0);\"> usou este exemplo para familiarizar com Hooks:</span></p><pre><code class=\"language-plaintext\">import React, { useState } from 'react';\n\nfunction Example() {\n  // Declarar uma nova variável de state, na qual chamaremos de \"count\"  const [count, setCount] = useState(0);\n  return (\n    &lt;div&gt;\n      &lt;p&gt;You clicked {count} times&lt;/p&gt;\n      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;\n        Click me\n      &lt;/button&gt;\n    &lt;/div&gt;\n  );\n}</code></pre><p style=\"margin-left:0px;\">Vamos começar a aprender sobre Hooks comparando este código com um exemplo equivalente utilizando classe.</p><h2 style=\"margin-left:0px;\">Exemplo Equivalente com Classe</h2><p style=\"margin-left:0px;\">Se você já usou classes no React, este código deve parecer familiar:</p><pre><code class=\"language-plaintext\">class Example extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {\n      count: 0\n    };\n  }\n\n  render() {\n    return (\n      &lt;div&gt;\n        &lt;p&gt;You clicked {this.state.count} times&lt;/p&gt;\n        &lt;button onClick={() =&gt; this.setState({ count: this.state.count + 1 })}&gt;\n          Click me\n        &lt;/button&gt;\n      &lt;/div&gt;\n    );\n  }\n}</code></pre><p style=\"margin-left:0px;\">O state começa como <code>{ count: 0 }</code>, e aumentamos o <code>state.count</code> chamando <code>this.setState()</code> quando o usuário clica no botão. Vamos utilizar trechos dessa classe ao longo da página.</p><blockquote><p style=\"margin-left:0px;\"><strong>Nota</strong></p><p style=\"margin-left:0px;\">Você pode estar se perguntando porque estamos usando um counter aqui ao invés de um exemplo mais realista. Isto é pra nos ajudar a focar na API enquanto ainda damos os primeiros passos com Hooks.</p></blockquote>",
+        "allowComments": true,
+        "cover": {
+          "id": "605a3c09005c17030f014a84",
+          "alternativeText": "",
+          "url": "https://res.cloudinary.com/dg4rnkej8/image/upload/v1616526348/1_v_HH_Bwc_UF_Ua_HW_Xnt_Snq_Kd_CA_c923d6cb48.png"
+        },
+        "categories": [
+          {
+            "id": "605a3b6f005c17030f014a82",
+            "displayName": "React",
+            "slug": "react"
+          }
+        ],
+        "tags": [
+          {
+            "id": "605a3b91005c17030f014a83",
+            "displayName": "useState",
+            "slug": "use-state"
+          }
+        ],
+        "author": {
+          "id": "605a3b4e005c17030f014a81",
+          "displayName": "Victor",
+          "slug": "victor"
+        }
       }
     ]
   }
