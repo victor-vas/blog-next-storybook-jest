@@ -45,6 +45,11 @@
             "id": "605a3b91005c17030f014a83",
             "displayName": "useState",
             "slug": "use-state"
+          },
+          {
+            "id": "605a3b91005c17030f0dasd14a83",
+            "displayName": "useEffect",
+            "slug": "use-effect"
           }
         ],
         "author": {
