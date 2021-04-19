@@ -3,7 +3,7 @@ import { Footer } from '../../components/Footer';
 import { GoTop } from '../../components/GoTop';
 import { Header } from '../../components/Header';
 import { Menu } from '../../components/Menu';
-import { SettingsStrapi } from '../../shared-typed/settingsStrapi';
+import { SettingsStrapi } from '../../shared-types/settingsStrapi';
 import * as Styled from './styles';
 
 export type BaseTemplateProps = {

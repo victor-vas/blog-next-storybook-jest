@@ -1,5 +1,5 @@
-import { Author } from '../../shared-typed/author';
-import { Category } from '../../shared-typed/category';
+import { Author } from '../../shared-types/author';
+import { Category } from '../../shared-types/category';
 import { formatDate } from '../../utils/formatDate';
 import * as Styled from './styles';
 
