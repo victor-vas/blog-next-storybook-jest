@@ -1,9 +1,9 @@
 import * as Styled from './styles';
 import { Post } from '../../components/Post';
 import { PostTags } from '../../components/PostTags';
-import { PostStrapi } from '../../shared-types/postStrapi';
-import { SettingsStrapi } from '../../shared-types/settingsStrapi';
-import { BaseTemplate } from '../Base';
+import { PostStrapi } from '../../shared-types/post-strapi';
+import { SettingsStrapi } from '../../shared-types/settings-strapi';
+import { BaseTemplate } from '../BaseTemplate';
 
 export type PostTemplateProps = {
   settings: SettingsStrapi;

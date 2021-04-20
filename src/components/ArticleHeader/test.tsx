@@ -3,7 +3,7 @@ import { renderTheme } from '../../styles/render-theme';
 import { ArticleHeader, ArticleHeaderProps } from '.';
 
 import mock from './mock';
-import { formatDate } from '../../utils/formatDate';
+import { formatDate } from '../../utils/format-date';
 
 const props: ArticleHeaderProps = mock;
 

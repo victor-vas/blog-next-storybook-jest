@@ -1,7 +1,7 @@
 import { PostGrid } from '../../components/PostGrid';
-import { PostStrapi } from '../../shared-types/postStrapi';
-import { SettingsStrapi } from '../../shared-types/settingsStrapi';
-import { BaseTemplate } from '../Base';
+import { PostStrapi } from '../../shared-types/post-strapi';
+import { SettingsStrapi } from '../../shared-types/settings-strapi';
+import { BaseTemplate } from '../BaseTemplate';
 
 export type PostsTemplateProps = {
   settings: SettingsStrapi;

@@ -1,4 +1,4 @@
-import { StrapiImage } from '../../shared-types/strapiImage';
+import { StrapiImage } from '../../shared-types/strapi-image';
 import { ArticleMeta, ArticleMetaProps } from '../ArticleMeta';
 import { Heading } from '../Heading';
 import * as Styled from './styles';
