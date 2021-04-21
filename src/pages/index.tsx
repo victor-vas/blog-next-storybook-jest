@@ -1,5 +1,14 @@
-import { Home } from '../templates/Home';
+import { useEffect } from 'react';
+import { loadPosts } from '../api/load-posts';
 
 export default function Index() {
-  return <Home />;
+  useEffect(() => {
+    loadPosts({
+      authorSlug: 'victor',
+    }).then((r) => {
+      console.log(r.setting, r.posts);
+    });
+  }, []);
+
+  return <h1>Hello</h1>;
 }
