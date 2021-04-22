@@ -5,17 +5,17 @@ export default {
   author: {
     id: '123456789',
     slug: 'victor-vasconcelos',
-    displayName: 'Victor Vasconcelos',
+    name: 'Victor Vasconcelos',
   },
   categories: [
     {
       id: 'daldlvpçfg4849',
-      displayName: 'Tech',
+      name: 'Tech',
       slug: 'tech',
     },
     {
       id: 'lpglpasgmdk0304',
-      displayName: 'JS',
+      name: 'JS',
       slug: 'javascript',
     },
   ],

@@ -36,25 +36,25 @@
         "categories": [
           {
             "id": "605a3b6f005c17030f014a82",
-            "displayName": "React",
+            "name": "React",
             "slug": "react"
           }
         ],
         "tags": [
           {
             "id": "605a3b91005c17030f014a83",
-            "displayName": "useState",
+            "name": "useState",
             "slug": "use-state"
           },
           {
             "id": "605a3b91005c17030f0dasd14a83",
-            "displayName": "useEffect",
+            "name": "useEffect",
             "slug": "use-effect"
           }
         ],
         "author": {
           "id": "605a3b4e005c17030f014a81",
-          "displayName": "Victor",
+          "name": "Victor",
           "slug": "victor"
         }
       },

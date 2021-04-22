@@ -22,7 +22,7 @@ export const ArticleMeta = ({
           <>
             <span>Por </span>
             <Link href={`/author/${author.slug}`}>
-              <a>{author.displayName}</a>
+              <a>{author.name}</a>
             </Link>
             <span className="separator"> | </span>
           </>
@@ -36,7 +36,7 @@ export const ArticleMeta = ({
                 return (
                   <span key={`article-meta-cat-${category.id}`}>
                     <Link href={`/category/${category.slug}`}>
-                      <a>{category.displayName}</a>
+                      <a>{category.name}</a>
                     </Link>
                   </span>
                 );
