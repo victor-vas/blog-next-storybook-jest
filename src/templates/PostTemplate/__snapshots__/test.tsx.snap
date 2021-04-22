@@ -766,16 +766,12 @@ function Example() {
           <span>
             <a
               href="/tag/use-state"
-            >
-              useState
-            </a>
+            />
           </span>
           <span>
             <a
               href="/tag/use-effect"
-            >
-              useEffect
-            </a>
+            />
           </span>
         </p>
       </div>
