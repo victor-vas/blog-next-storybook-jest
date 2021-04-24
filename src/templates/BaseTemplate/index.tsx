@@ -1,4 +1,5 @@
 import React from 'react';
+import { useRouter } from 'next/dist/client/router';
 import { Footer } from '../../components/Footer';
 import { GoTop } from '../../components/GoTop';
 import { Header } from '../../components/Header';
@@ -12,6 +13,8 @@ export type BaseTemplateProps = {
 };
 
 export const BaseTemplate = ({ settings, children }: BaseTemplateProps) => {
+  const router = useRouter();
+
   return (
     <Styled.Wrapper>
       <Menu
@@ -27,6 +30,17 @@ export const BaseTemplate = ({ settings, children }: BaseTemplateProps) => {
           logo={settings.logo.url}
         />
       </Styled.HeaderContainer>
+
+      <Styled.SearchContainer>
+        <form action="/search/" method="GET">
+          <Styled.SearchInput
+            type="search"
+            placeholder="Encontre posts"
+            name="q"
+            defaultValue={router?.query.q}
+          />
+        </form>
+      </Styled.SearchContainer>
 
       <Styled.ContentContainer>{children}</Styled.ContentContainer>
 
