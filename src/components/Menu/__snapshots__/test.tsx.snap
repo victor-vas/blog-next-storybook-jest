@@ -105,7 +105,7 @@ exports[`<Menu /> should match snapshot 1`] = `
   left: 26rem;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
-  left: 1.8rem;
+  left: 1rem;
   color: #FFFFFF;
 }
 

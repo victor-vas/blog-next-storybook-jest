@@ -59,7 +59,7 @@ const buttonChanger = (
   menuVisible: MenuBehaviorProps['menuVisible'],
   theme: DefaultTheme,
 ) => css`
-  left: ${menuVisible ? '26rem' : '1.8rem'};
+  left: ${menuVisible ? '26rem' : '1rem'};
   color: ${menuVisible ? theme.colors.secondary : theme.colors.white};
 
   @media ${theme.media.lteMedium} {
