@@ -232,18 +232,18 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   filter: brightness(50%);
 }
 
-.c32 {
+.c33 {
   text-align: center;
   border-top: 0.1rem solid #DDDDDD;
 }
 
-.c32 a {
+.c33 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c33 {
+.c34 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -509,11 +509,18 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   margin-bottom: 6.4rem;
 }
 
-.c31 {
+.c32 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   padding: 3.2rem;
+}
+
+.c31 {
+  max-width: 80rem;
+  width: 100%;
+  margin: 3.2rem auto;
+  padding: 0 3.2rem;
 }
 
 @media (max-width:768px) {
@@ -905,12 +912,21 @@ function Example() {
           </span>
         </p>
       </div>
+      <div
+        class="c31"
+      >
+        <div
+          config="[object Object]"
+          id="disqus_thread"
+          shortname="blog-do-victor-vasconcelos"
+        />
+      </div>
     </div>
     <div
-      class="c31"
+      class="c32"
     >
       <footer
-        class="c32"
+        class="c33"
       >
         <div
           class="c28"
@@ -923,7 +939,7 @@ function Example() {
     </div>
     <a
       aria-label="Go to top"
-      class="c33"
+      class="c34"
       href="#"
       title="Go to top"
     >
