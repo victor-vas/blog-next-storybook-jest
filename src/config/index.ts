@@ -1,6 +1,6 @@
 export default {
-  url: '',
+  url: 'https://blog-next-sb-jest-strapi.herokuapp.com',
   siteName: 'Victor Vasconcelos',
-  defaultSlug: 'landing-page',
-  graphqlURL: 'http://127.0.0.1:1337/graphql',
+  defaultSlug: 'strapi-blog',
+  graphqlURL: 'https://blog-next-sb-jest-strapi.herokuapp.com/graphql',
 };
